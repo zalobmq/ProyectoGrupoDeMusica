@@ -1,0 +1,272 @@
+/*ESTILOS */
+.base{
+    background-color: #252525;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+/*ESTILOS CABECERA*/
+.cabecera{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+/*ESTILOS CABECERA*/
+
+.grid-container-cabecera {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .grid-item-cabecera {
+    padding: 15px;
+    text-align: center;
+  }
+    /*IMAGENES DE CABECERA*/
+    .img-item-rock-cabecera{
+        width: 102px;
+        height: 102px;
+    }
+    .img-item-acdc-cabecera{
+        width: 260px;
+        height: 100px;
+    }
+/*MENU*/
+.back-menu{
+    background-color: #252525 , .2;
+    border: 2px solid #FF9200;
+    border-radius: 40px;
+
+    margin-left: 350px;
+    margin-right: 350px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.link-menu{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+.link-menu:hover{
+    color: #CB1F14;
+}
+.img-inicial{
+    width: 80%;
+    height: 460px;
+    
+    margin-top: 20px;
+    border: 3px solid #FF9200;
+
+
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 1px;
+    background-color: #FF9200;
+    color: #FF9200;
+    border: 1px solid #FF9200;
+}
+
+/*      VENTANA STORE       */
+
+#destacados{
+    color: white;
+    background-color: #CB1F14;
+    border:2px solid #A2180D;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.contenido{
+
+    background-color: #de5b52;
+
+    border: 4px solid #FF9200;
+    border-radius: 20px;
+
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.menu-tienda{
+    background-color: #A2180D;
+
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 200px;
+
+}
+
+.link-menu-tienda{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    font-family: 'Noto Sans Mono', monospace;
+
+
+}
+.link-menu-tienda:hover{
+  color: #252525;
+  font-style: italic;
+}
+.articulos{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.articulos-music{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+/*Targetas*/
+/* From uiverse.io by @alexmaracinaru */
+.card {
+    width: 190px;
+    height: 274px;
+    background: #252525;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 60%;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+
+  .N-Articulo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+
+    color: white;
+    background-color: #A2180D;
+    margin-top: 10px;
+
+    border-radius: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+
+  }
+  
+  .N-Articulo:hover {
+    cursor: pointer;
+  }
+  
+  /*BOTON COMPRA*/
+  .B-Compra {
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 1.3em 3em;
+    
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #A2180D;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Noto Sans Mono', monospace;
+
+  }
+  
+  .B-Compra:hover {
+    background-color: #CB1F14;
+  box-shadow: 0px 15px 20px #ee1f10;
+  color: #fff;
+  transform: translateY(-7px);
+  }
+  .B-Compra:active{
+    transform: translateY(-1px);
+  }
+
+  /*Musica*/
+  .B-Musica {
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 1.3em 3em;
+    
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #A2180D;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+  
+  .B-Musica:hover {
+    background-color: #CB1F14;
+  box-shadow: 0px 15px 20px #2bc913;
+  color: #fff;
+  transform: translateY(-7px);
+  }
+  .B-Musica:active{
+    transform: translateY(-1px);
+  }
+
+  #img-sp{
+    width: 30px;
+    height: 30px;
+  }
+ 
+
+.img-articulos{
+    width: 100%;
+    height: 100%;
+    
+}
+  
